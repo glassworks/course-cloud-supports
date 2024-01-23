@@ -1,5 +1,6 @@
 ---
-coverY: 0
+cover: .gitbook/assets/pexels-christina-morillo-1181354.jpg
+coverY: 163
 ---
 
 # Cloud
