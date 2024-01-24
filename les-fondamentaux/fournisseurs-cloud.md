@@ -47,7 +47,7 @@ Il existe aujourd'hui sur le marché de nombreux fournisseurs Cloud, qu'ils soie
 
 <figure><img src="../graphics/scaleway.png" alt=""><figcaption><p>Tableau de bord Scaleway</p></figcaption></figure>
 
-## ... et plain d'autres
+## ... et beaucoup d'autres
 
 Il existe de nombreux autres fournisseurs qui proposent IaaS, FaaS, PaaS en fonction de vos besoins :
 - Heroku (PaaS) : https://www.heroku.com/
