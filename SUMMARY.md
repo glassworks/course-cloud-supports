@@ -11,15 +11,20 @@
 
 ## Architecture
 
+* [Introduction](architecture/intro.md)
 * [Machines virtuelles](architecture/machines-virtuelles.md)
 * [Volumes](architecture/volumes.md)
-* [Adresses IP](architecture/adresses-ip.md)
-* [Load-balancers](architecture/load-balancers.md)
-* [Private networks](architecture/private-networks.md)
-* [Cloud functions](architecture/cloud-functions.md)
+* [Réseau](architecture/reseau.md)
+* [Serverless functions](architecture/cloud-functions.md)
+* [CDN](architecture/cdn.md)
 * [Database as a Service](architecture/database-as-a-service.md)
 * [Kubernetes](architecture/kubernetes.md)
 * [Terraform](architecture/terraform.md)
+* [HDS](architecture/hds.md)
+
+
+## Etudes de cas
+
 
 ## Pratique
 

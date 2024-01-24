@@ -68,6 +68,8 @@ Exemples :
 
 ## Public / Private / Hybrid
 
+<figure><img src="../graphics/clouds.png" alt=""><figcaption><p>[Source](https://solutions.trustradius.com/buyer-blog/paas-deployment-model-options/)</p></figcaption></figure>
+
 Le plus souvent, nous utilisons des services cloud publics où toutes les ressources sont mutuellement partagées (GCP, AWS, Azure, etc.): **public cloud**
 
 Toutefois, lorsqu'il s'agit d'informations sensibles, certains fournisseurs proposent des services privés. Les ressources peuvent être physiquement situées dans un data-center du fournisseur ou sur le site de l'entreprise. Dans tous les cas, les ressources sont privées et ne sont pas partagées avec d'autres client: **private cloud**.
