@@ -23,12 +23,12 @@
 * [HDS](architecture/hds.md)
 
 
-## Etudes de cas
-
-
 ## Pratique
 
 * [Azure](pratique/azure.md)
 * [Connexion et clés](pratique/azure.md)
 * [Création d'une VM](pratique/creation-dune-vm.md)
-* [Création d'une volume](pratique/creation-dune-volume.md)
+
+## Evaluation
+
+* [Evaluation](eval/evaluation.md)
