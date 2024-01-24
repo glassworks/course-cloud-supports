@@ -1,21 +1,20 @@
 # Machines virtuelles
 
-La **machine virtuelle** est un élément fondamental de tout fournisseur de services en nuage.
+La **machine virtuelle** est un élément fondamental de tout fournisseur de services Cloud.
 
 Il s'agit des ressources de calcul et de traitement que nous pouvons mettre à disposition.
 
 En règle générale, vous faites les choix suivants chez votre fournisseur :
 
-- Choix du data-center : où votre machine virtuelle doit-elle se trouver exactement ? 
-- Choix de l'architecture : X86-64, ARM, M1, M2, etc.
-- Choix de la puissance de traitement, exprimée en nombre de **vCores**
-- Choix de la RAM
-- Bande passante
+* Choix du data-center : où votre machine virtuelle doit-elle se trouver exactement ?
+* Choix de l'architecture : X86-64, ARM, M1, M2, etc.
+* Choix de la puissance de traitement, exprimée en nombre de **vCores**
+* Choix de la RAM
+* Bande passante
 
 <figure><img src="../graphics/scaleway-CPU.png" alt=""><figcaption><p>Scaleway "Instances"</p></figcaption></figure>
 
-
-Une machine virtuelle est techniquement un système d'exploitation qui fonctionne **à l'intérieur** d'un autre. Un ordinateur doté de la *virtualisation* peut effectivement partager les ressources matérielles de la machine et exécuter plusieurs systèmes d'exploitation à la fois. 
+Une machine virtuelle est techniquement un système d'exploitation qui fonctionne **à l'intérieur** d'un autre. Un ordinateur doté de la _virtualisation_ peut effectivement partager les ressources matérielles de la machine et exécuter plusieurs systèmes d'exploitation à la fois.
 
 Vous pouvez, par exemple, créer vos propres machines virtuelles sur vos propres ordinateurs en utilisant VirtualBox (https://www.virtualbox.org/), VMWare (https://www.vmware.com/) ou UTM (https://mac.getutm.app/).
 
@@ -23,8 +22,7 @@ Chez notre fournisseur de cloud, nous pouvons donc louer une machine virtuelle s
 
 <figure><img src="../graphics/VMware-Diagram.gif" alt=""><figcaption><p>[Source](https://www.icssnj.com/VMWare-installation-support.html)</p></figcaption></figure>
 
-
-Nous ne nous soucions pas de savoir quel hyperviseur fait tourner notre VM, et notre fournisseur peut, par exemple, déplacer notre VM d'une machine physique à une autre sans que nous en soyons informés. Pourquoi ils le feront  ?
+Nous ne nous soucions pas de savoir quel hyperviseur fait tourner notre VM, et notre fournisseur peut, par exemple, déplacer notre VM d'une machine physique à une autre sans que nous en soyons informés. Pourquoi ils le feront ?
 
 ## Système d'exploitation
 
@@ -36,22 +34,21 @@ Une fois la machine provisionnée, nous pouvons nous y connecter à distance en 
 
 Un ordinateur physique nécessite plus qu'un simple processeur et de la mémoire vive pour fonctionner.
 
-Nous avons notamment besoin d'espace disque pour installer notre système d'exploitation et nos logiciels. 
+Nous avons notamment besoin d'espace disque pour installer notre système d'exploitation et nos logiciels.
 
 Lorsque nous déployons une VM, le fournisseur provisionne et attache les **volumes** qui fournissent cet espace de stockage.
 
 Notre VM doit être connectée à l'internet pour que nous puissions nous y connecter et l'utiliser. Notre fournisseur fournira donc l'infrastructure de réseau appropriée. Plus particulièrement, il fournira une **adresse IP** ou un **nom de domaine pleinement qualifié** (FQDN) que nous pourrons utiliser pour nous connecter à notre machine via SSH.
 
-
 ## Vocabulaire
 
-| Fournisseur | Terme |
-|--|--|
-| AWS | EC2 |
-| Azure | Machine Virtuelle |
-| GCP | Compute Engine / VM |
-| OVH | Compute - Instances |
-| Scaleway | Compute - Instances |
+| Fournisseur | Terme               |
+| ----------- | ------------------- |
+| AWS         | EC2                 |
+| Azure       | Machine Virtuelle   |
+| GCP         | Compute Engine / VM |
+| OVH         | Compute - Instances |
+| Scaleway    | Compute - Instances |
 
 ## L'option "Bare Metal"
 
@@ -59,12 +56,14 @@ Parfois, nous ne souhaitons pas partager les ressources avec d'autres clients et
 
 Dans ce cas, nous pouvons revenir à l'ancien modèle de location d'un dispositif physique dans le centre de données.
 
-Il s'agit généralement d'un dispositif *Bare-Metal*, ce qui signifie qu'il n'y a pas de virtualisation ou de partage. 
+Il s'agit généralement d'un dispositif _Bare-Metal_, ce qui signifie qu'il n'y a pas de virtualisation ou de partage.
 
 Avantages :
-- amélioration des performances
-- exclusivité
+
+* amélioration des performances
+* exclusivité
 
 Inconvénients :
-- coûteux
-- nécessite une surveillance et une maintenance manuelles
+
+* coûteux
+* nécessite une surveillance et une maintenance manuelles

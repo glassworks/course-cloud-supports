@@ -1,23 +1,22 @@
-# Types de service cloud
+# Types de services cloud
 
 Il existe aujourd'hui sur le marché un certain nombre de modèles qui dépendent des besoins et de l'utilisation du client.
 
 Nous voyons souvent l'expression "X en tant que service" qui se réfère généralement à un modèle de nuage.
 
-<figure><img src="../graphics/IaaS-PaaS-SaaS-slanted-control.png" alt=""><figcaption>Xaas [source: LucidChart](https://www.lucidchart.com/blog/fr/comprendre-les-principes-du-cloud-computing)</figcaption></figure>
-
+<figure><img src="../graphics/IaaS-PaaS-SaaS-slanted-control.png" alt=""><figcaption><p><a href="https://www.lucidchart.com/blog/fr/comprendre-les-principes-du-cloud-computing">Source</a></p></figcaption></figure>
 
 ## Infrastructure as a Service (IaaS)
 
 Ne prévoir que des éléments architecturaux, y compris :
 
-- les machines virtuelles
-- les réseaux virtuels privés et publics
-- les équilibreurs de charge (load-balancers)
-- les adresses IP
-- le stockage
+* les machines virtuelles
+* les réseaux virtuels privés et publics
+* les équilibreurs de charge (load-balancers)
+* les adresses IP
+* le stockage
 
-Presque tous les fournisseurs d'informatique en nuage les plus connus aujourd'hui proposent ces services (AWS, GC, OVH, ...). Ils constituent l'épine dorsale de l'informatique en nuage moderne.  Cependant, ils sont les plus difficiles à configurer et requièrent une certaine expertise.
+Presque tous les fournisseurs d'informatique en nuage les plus connus aujourd'hui proposent ces services (AWS, GC, OVH, ...). Ils constituent l'épine dorsale de l'informatique en nuage moderne. Cependant, ils sont les plus difficiles à configurer et requièrent une certaine expertise.
 
 ## Function as a Service (FaaS)
 
@@ -30,9 +29,10 @@ Le fournisseur de services en nuage fournira l'unité centrale, la mémoire vive
 La fonction peut être invoquée à la suite d'une requête web HTTP, ou par d'autres déclencheurs tels que des délais d'attente ou des événements qui se produisent dans d'autres services (tels que l'écriture dans une base de données).
 
 Examples :
-- Heroku
-- Firebase functions
-- Cloud functions chez Scaleway, GC, Azure, AWS
+
+* Heroku
+* Firebase functions
+* Cloud functions chez Scaleway, GC, Azure, AWS
 
 ## Platform as a Service (PaaS)
 
@@ -40,31 +40,30 @@ Au lieu de demander une machine virtuelle et un réseau particuliers, cette couc
 
 Aujourd'hui, de nombreux fournisseurs proposent des produits en tant que service :
 
-- Serveurs de mailing
-- Bases de données SQL (MySQL, PostGres)
-- Bases de données NoSQL (MongoDB Atlas)
-- Sites web WordPress
-- Frameworks MVC (Symfony, Ruby on Rails, ASP.NET Core, ...)
-- Dépôts GIT (GitLab)
-- ...
+* Serveurs de mailing
+* Bases de données SQL (MySQL, PostGres)
+* Bases de données NoSQL (MongoDB Atlas)
+* Sites web WordPress
+* Frameworks MVC (Symfony, Ruby on Rails, ASP.NET Core, ...)
+* Dépôts GIT (GitLab)
+* ...
 
 ## Software as a Service (SaaS)
 
 Enfin, de nombreuses entreprises profitent aujourd'hui de ces infrastructures pour fournir une plateforme entièrement fonctionnelle à leurs utilisateurs, connue sous le nom de SaaS. Un SaaS se définit par les caractéristiques suivantes :
 
-- Généralement accessible en ligne uniquement via le navigateur web.
-- Aucune installation locale n'est requise
-- Abstraction totale de tout aspect physique
-- Sauvegardes, niveaux de service (SLA), sécurité des données
+* Généralement accessible en ligne uniquement via le navigateur web.
+* Aucune installation locale n'est requise
+* Abstraction totale de tout aspect physique
+* Sauvegardes, niveaux de service (SLA), sécurité des données
 
 Exemples :
 
-- Salesforce
-- Mailjet
-- Google Drive
-- ChatGPT
-- ...
-
+* Salesforce
+* Mailjet
+* Google Drive
+* ChatGPT
+* ...
 
 ## Public / Private / Hybrid
 
@@ -75,5 +74,3 @@ Le plus souvent, nous utilisons des services cloud publics où toutes les ressou
 Toutefois, lorsqu'il s'agit d'informations sensibles, certains fournisseurs proposent des services privés. Les ressources peuvent être physiquement situées dans un data-center du fournisseur ou sur le site de l'entreprise. Dans tous les cas, les ressources sont privées et ne sont pas partagées avec d'autres client: **private cloud**.
 
 Il existe également des modèles hybrides dans lesquels les services non sensibles sont hébergés dans le nuage public et connectés à des nuages privés pour le traitement des données sensibles : **hybrid cloud**
-
-
