@@ -26,7 +26,6 @@
 ## Pratique
 
 * [Azure](pratique/azure.md)
-* [Connexion et clés](pratique/azure.md)
 * [Création d'une VM](pratique/creation-dune-vm.md)
 
 ## Evaluation
