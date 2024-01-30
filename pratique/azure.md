@@ -14,6 +14,9 @@ Choisissez l'option de démarrage gratuit et suivez les étapes. **Veillez à ut
 
 Vous devriez recevoir 100€ de ressources gratuites.
 
+En cas de non-reconnaissance de votre identité étudiante, essayez de naviguer après vers : [https://portal.azure.com
+](https://portal.azure.com)
+
 ## Clés SSH
 
 Afin de vous identifier sur les ressources créées par Azure (ou sur n'importe quel fournisseur), vous devez créer une paire de clés SSH.
