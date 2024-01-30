@@ -6,9 +6,9 @@ Vous pouvez utiliser le fournisseur de votre choix. Cependant, la plupart d'entr
 
 La seule exception est Microsoft Azure, qui propose une licence étudiante. 
 
-<figure><img src="../graphics/azure01.png" alt=""><figcaption><p>Azure</p></figcaption></figure>
+<figure><img src="../graphics//azure-students.png" alt=""><figcaption><p>Azure</p></figcaption></figure>
 
-Naviguez vers [https://azure.microsoft.com/fr-fr/](https://azure.microsoft.com/fr-fr/).
+Naviguez vers [https://azure.microsoft.com/fr-fr/free/students](https://azure.microsoft.com/fr-fr/free/students).
 
 Choisissez l'option de démarrage gratuit et suivez les étapes. **Veillez à utiliser votre adresse électronique d'étudiant (HETIC ou Galiléo)**.
 
