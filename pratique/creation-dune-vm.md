@@ -72,7 +72,20 @@ ls
 
 Vous devriez voir un listing de votre fichier.
 
-Nous allons devoir sécuriser notre clé privé (une seule fois).
+Maintenant, créons une connexion SSH :
+
+```bash
+# Remplacez "cours-azure.pem" par le nom de votre clé privée
+# Remplacez "172.201.216.116" par l'adresse IP que vous avez noté sur le tableau de bord Azure
+ssh -i ./cours-azure.pem azureuser@172.201.216.116
+```
+
+Vous verrez un message de bienvenu, ainsi qu'un réplique qui est différent. Vous êtes maintenant connecté à votre VM !
+
+<figure><img src="../graphics/azure04.png" alt=""><figcaption></figcaption></figure>
+
+
+Si vous avez un message d'erreur concernant les permissions de votre cle, vous devez sécuriser la clé privée (une seule fois).
 
 Sur Linux/MacOS :
 
@@ -96,18 +109,6 @@ start-process "icacls.exe" -ArgumentList '.\cours-azure.pem /grant:r "$env:USERN
 {% hint style="info" %}
 Venez me voir si vous avez des problèmes concernant la lecture de votre clé !
 {% endhint %}
-
-Maintenant, créons une connexion SSH :
-
-```bash
-# Remplacez "cours-azure.pem" par le nom de votre clé privée
-# Remplacez "172.201.216.116" par l'adresse IP que vous avez noté sur le tableau de bord Azure
-ssh -i ./cours-azure.pem azureuser@172.201.216.116
-```
-
-Vous verrez un message de bienvenu, ainsi qu'un réplique qui est différent. Vous êtes maintenant connecté à votre VM !
-
-<figure><img src="../graphics/azure04.png" alt=""><figcaption></figcaption></figure>
 
 ## Installer un web-serveur
 
